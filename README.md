@@ -1,11 +1,11 @@
 # DesafioCWI
-Desafio de Automação de Testes
+**Desafio de Automação de Testes**
 
-🧪 Desafio de Automação - Cardif
+**🧪 Desafio de Automação - Cardif**
 Este repositório contém a solução desenvolvida para o Desafio Técnico de Automação proposto pela CWI.
 O objetivo é validar conhecimentos de automação de testes em Web (UI) e API, seguindo as instruções fornecidas.
 
-📋 Tecnologias Utilizadas
+**📋 Tecnologias Utilizadas**
 - Java – Linguagem de programação
 - Maven – Gerenciador de dependências e build
 - Robot Framework – Framework de automação
@@ -13,7 +13,7 @@ O objetivo é validar conhecimentos de automação de testes em Web (UI) e API, 
 - HttpRequestLibrary – Automação de testes de API
 - Gherkin – Escrita dos cenários de teste
 
-📂 Estrutura do Projeto
+📂** Estrutura do Projeto**
 
 ├── web-tests/            # Testes de automação de interface
 
@@ -37,7 +37,7 @@ O objetivo é validar conhecimentos de automação de testes em Web (UI) e API, 
 
 └── README.md             # Documentação do projeto
 
-🌐 Desafio - Automação Web
+**🌐 Desafio - Automação Web**
 **Aplicação para teste:** https://demoblaze.com/
 
 **Cenários implementados:**
@@ -55,7 +55,7 @@ O objetivo é validar conhecimentos de automação de testes em Web (UI) e API, 
 - Robot Framework
 - Gherkin para descrição dos cenários
 
-🔗 Desafio - Automação API
+**🔗 Desafio - Automação API**
 **Base URL:** https://reqres.in/
 
 **Cenários implementados:**
@@ -71,25 +71,25 @@ O objetivo é validar conhecimentos de automação de testes em Web (UI) e API, 
 - HttpRequestLibrary
 - Robot Framework
 
-▶️ Como Executar os Testes
+▶️ **Como Executar os Testes**
 **Pré-requisitos**
 - **Java 11+** instalado
 - **Maven** instalado
 - **Python 3+** instalado
 - **Robot Framework** instalado
 
-Bibliotecas adicionais:
+**Bibliotecas adicionais:**
 
-pip install robotframework-seleniumlibrary
-pip install robotframework-httprequestlibrary
+- pip install robotframework-seleniumlibrary
+- pip install robotframework-httprequestlibrary
 
-Executando Testes Web
-mvn test -Pweb
+**Executando Testes Web**
+- mvn test -Pweb
 
-Executando Testes API
-mvn test -Papi
+**Executando Testes API**
+- mvn test -Papi
 
 
-🏆 Autor
-Darcy Junior Dantas da Silva - Engenheiro de Computação e Qualidade de Software
-Desenvolvido para o Desafio Técnico de Automação – CWI
+🏆 **Autor**
+**Darcy Junior Dantas da Silva - Engenheiro de Computação e Qualidade de Software
+Desenvolvido para o Desafio Técnico de Automação – CWI**
