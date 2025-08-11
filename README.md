@@ -6,23 +6,14 @@ Este repositório contém a solução desenvolvida para o Desafio Técnico de Au
 O objetivo é validar conhecimentos de automação de testes em Web (UI) e API, seguindo as instruções fornecidas.
 
 📋 Tecnologias Utilizadas
-Java – Linguagem de programação
-
-Maven – Gerenciador de dependências e build
-
-Robot Framework – Framework de automação
-
-SeleniumLibrary – Automação de testes Web
-
-HttpRequestLibrary – Automação de testes de API
-
-Gherkin – Escrita dos cenários de teste
+- Java – Linguagem de programação
+- Maven – Gerenciador de dependências e build
+- Robot Framework – Framework de automação
+- SeleniumLibrary – Automação de testes Web
+- HttpRequestLibrary – Automação de testes de API
+- Gherkin – Escrita dos cenários de teste
 
 📂 Estrutura do Projeto
-bash
-Copiar
-Editar
-.
 
 ├── web-tests/            # Testes de automação de interface
 
