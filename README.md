@@ -91,5 +91,6 @@ O objetivo é validar conhecimentos de automação de testes em Web (UI) e API, 
 
 
 🏆 **Autor**
-**Darcy Junior Dantas da Silva - Engenheiro de Computação e Qualidade de Software
-Desenvolvido para o Desafio Técnico de Automação – CWI**
+**Darcy Junior Dantas da Silva - Engenheiro de Computação e Qualidade de Software**
+
+Desenvolvido para o Desafio Técnico de Automação – **CWI**
