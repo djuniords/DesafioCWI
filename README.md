@@ -38,77 +38,55 @@ O objetivo é validar conhecimentos de automação de testes em Web (UI) e API, 
 └── README.md             # Documentação do projeto
 
 🌐 Desafio - Automação Web
-Aplicação para teste: https://demoblaze.com/
+**Aplicação para teste:** https://demoblaze.com/
 
-Cenários implementados:
+**Cenários implementados:**
 
-Cadastro de novo usuário
+1. Cadastro de novo usuário
+2. Realizar login com sucesso
+3. Busca de produto
+4. Inclusão de produto no carrinho
+5. Alteração de itens no carrinho
+6. Finalização de compra com sucesso
 
-Realizar login com sucesso
+**Bibliotecas utilizadas:**
 
-Busca de produto
-
-Inclusão de produto no carrinho
-
-Alteração de itens no carrinho
-
-Finalização de compra com sucesso
-
-Bibliotecas utilizadas:
-
-SeleniumLibrary
-
-Robot Framework
-
-Gherkin para descrição dos cenários
+- SeleniumLibrary
+- Robot Framework
+- Gherkin para descrição dos cenários
 
 🔗 Desafio - Automação API
-Base URL: https://reqres.in/
+**Base URL:** https://reqres.in/
 
-Cenários implementados:
+**Cenários implementados:**
 
-Autenticação incorreta (sem envio de parâmetro)
+1. Autenticação incorreta (sem envio de parâmetro)
+2. Atualização de usuário (PUT – /api/users/{id})
+3. Criação de novo usuário (POST – /api/users)
+4. Busca de usuário único (GET – /api/users/{id})
+5. Exclusão de usuário (DELETE – /api/users/{id})
 
-Atualização de usuário (PUT – /api/users/{id})
+**Bibliotecas utilizadas:**
 
-Criação de novo usuário (POST – /api/users)
-
-Busca de usuário único (GET – /api/users/{id})
-
-Exclusão de usuário (DELETE – /api/users/{id})
-
-Bibliotecas utilizadas:
-
-HttpRequestLibrary
-
-Robot Framework
+- HttpRequestLibrary
+- Robot Framework
 
 ▶️ Como Executar os Testes
-Pré-requisitos
-Java 11+ instalado
-
-Maven instalado
-
-Python 3+ instalado
-
-Robot Framework instalado
+**Pré-requisitos**
+- **Java 11+** instalado
+- **Maven** instalado
+- **Python 3+** instalado
+- **Robot Framework** instalado
 
 Bibliotecas adicionais:
 
-bash
-Copiar
-Editar
 pip install robotframework-seleniumlibrary
 pip install robotframework-httprequestlibrary
+
 Executando Testes Web
-bash
-Copiar
-Editar
 mvn test -Pweb
+
 Executando Testes API
-bash
-Copiar
-Editar
 mvn test -Papi
 
 
